@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../animate.css">
     <title>Title</title>
 </head>
 <body>
@@ -14,9 +15,9 @@
         (067)295-70-70 Сергій
     </p>
 </header>
-<section class="section1 wraper">
-    <h2 class="section1_h2">Послуги Спецтехніки</h2>
-    <div class="inner">
+<section class="section1 wraper wow fadeInRight "data-wow-duration = "3s">
+    <h2 class="section1_h2 wow fadeInDown" data-wow-delay = "3s" data-wow-duration = "1s" >Послуги Спецтехніки</h2>
+    <div class="inner wow fadeInLeft" data-wow-delay = "3.5s" data-wow-duration = "2s">
         <h3 class="section_h3">Послуги екскаватора:</h3>
         <li>JCB 3cx</li>
         <li>JCB 3cx Contraktor</li>
@@ -24,8 +25,8 @@
     </div>
 </section>
 <section class="section2 wraper">
-    <h2 class="section1_h2">Послуги Самоскида</h2>
-    <div class="inner">
+    <h2 class="section1_h2 wow bounce" data-wow-duration = "2s">Послуги Самоскида</h2>
+    <div class="inner wow fadeInLeft" data-wow-delay = "1s" data-wow-duration = "2s">
         <h3 class="section_h3">Доставка: самоскид 10т, 15т, 20т, 25т:</h3>
         <li>щебінь</li>
         <li>пісок</li>
@@ -33,8 +34,12 @@
         <li>граніт відсів</li>
     </div>
 </section>
-<footer>
+<footer class="wow fadeInUp" data-wow-delay = "1s" data-wow-duration = "2s">
     <h3 class="section_h3">тел. (067)295-70-70 Сергій c. Білогородка</h3>
 </footer>
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
