@@ -22,7 +22,7 @@ header {
 }
 
 .section1 {
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     background-image: url("../img/7.jpg");
     background-size: auto;
@@ -72,4 +72,10 @@ footer {
     padding: 15px;
     background-color: lightgrey;
     text-align: center;
+}
+
+.div {
+    height: 1px;
+    width: 100%;
+    background-color: gray;
 }
